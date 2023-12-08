@@ -1,12 +1,12 @@
 server:
   port: 8072
 
-eureka:
-  instance:
-    preferIpAddress: true
-  client:
-    fetchRegistry: true
-    registerWithEureka: true
-    serviceUrl:
-#      defaultZone: http://eurekaserver:8070/eureka/ # for docker compose to work
-      defaultZone: http://localhost:8070/eureka/
+# eureka:
+#   instance:
+#     preferIpAddress: true
+#   client:
+#     fetchRegistry: true
+#     registerWithEureka: true
+#     serviceUrl:
+# #      defaultZone: http://eurekaserver:8070/eureka/ # for docker compose to work
+#       defaultZone: http://localhost:8070/eureka/
